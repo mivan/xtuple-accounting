@@ -4,7 +4,7 @@
   'use strict';
 
   var React = require('react'),
-    Table = require('./Table.jsx'),
+    Table = require('xtuple-react-components').Table,
     TrialBalanceCollection = require('../../models/TrialBalanceCollection');
 
   var TrialBalanceTable = React.createClass({

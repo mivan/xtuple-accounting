@@ -23,23 +23,22 @@
   },
   "dependencies": {
     "backbone": "1.1.2",
-    "body-parser": "1.0.2",
-    "express": "4.1.x",
-    "jquery": "2.1.1",
-    "react": "^0.11.1",
-    "react-bootstrap": "^0.11.1",
-    "xtuple-rest-client": "0.0.x",
     "bower": "^1.3.11",
-    "grunt-cli": "^0.1.13",
     "browserify": "^5.11.1",
+    "express": "4.1.x",
     "grunt": "^0.4.5",
     "grunt-browserify": "^3.0.1",
     "grunt-contrib-watch": "^0.6.1",
+    "grunt-jsxhint": "^0.3.0",
     "grunt-react": "^0.9.0",
-    "grunt-jsxhint": "^0.3.0"
+    "jest": "^0.1.37",
+    "jquery": "2.1.1",
+    "react": "^0.11.1",
+    "xtuple-rest-client": "0.0.x"
   },
   "devDependencies": {
     "jest-cli": "^0.1.18",
-    "react-tools": "^0.11.1"
+    "react-tools": "^0.11.1",
+    "grunt-cli": "^0.1.13"
   }
 }
