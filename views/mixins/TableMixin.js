@@ -10,6 +10,12 @@
       return {data : [], message : ''};
     },
 
+    getDefaultProps: function () {
+      return {
+        pollInterval: 1000
+      };
+    },
+
     /*
       Fetch the models for the model collection.
     */
@@ -60,6 +66,7 @@
     */
     componentWillMount: function() {
       this.getModels();
+      //
       setInterval(this.getModels, this.props.pollInterval);
     }
   };

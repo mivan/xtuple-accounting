@@ -5,7 +5,7 @@
 
 	var React = require('react'),
     Backbone = require('backbone'),
-    TrialBalanceTable = require('./TrialBalanceTable.jsx');
+    TrialBalanceTable = require('./TrialBalanceTable');
 
 	Backbone.$ = window.$;
 	Backbone.history.start();
