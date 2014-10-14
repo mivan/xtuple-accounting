@@ -10,7 +10,7 @@
   },
   "license": "CPAL",
   "author": {
-    "name": "Steve Hackbarth"
+    "name": "xTuple"
   },
   "engines": {
     "node": "^0.10.29"
@@ -35,8 +35,9 @@
     "jquery": "2.1.1",
     "node-jsx": "^0.11.0",
     "react": "^0.11.1",
-    "xtuple-rest-client": "0.0.x",
-    "react-tools": "^0.11.1"
+    "react-tools": "^0.11.1",
+    "sails-backbone": "^1.0.13",
+    "xtuple-rest-client": "0.0.x"
   },
   "devDependencies": {
     "jest-cli": "^0.1.18",
