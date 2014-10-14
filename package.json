@@ -1,6 +1,6 @@
 {
   "name": "xtuple-accounting",
-  "description": "App for managing xTuple Accounting",
+  "description": "xTuple Accounting",
   "version": "0.0.1",
   "keywords": "xtuple, REST, react, backbone, browserify",
   "main": "app.js",
@@ -10,14 +10,14 @@
   },
   "license": "CPAL",
   "author": {
-    "name": "Steve Hackbarth"
+    "name": "xTuple"
   },
   "engines": {
-    "node": "^0.10.29"
+    "node": "^0.10.31"
   },
   "scripts": {
     "start": "node app.js",
-    "test": "jest",
+    "test": "mocha",
     "ci": "npm install && npm test",
     "postinstall": "bower install && grunt"
   },
@@ -31,15 +31,22 @@
     "grunt-contrib-watch": "^0.6.1",
     "grunt-jsxhint": "^0.3.0",
     "grunt-react": "^0.9.0",
-    "jest": "^0.1.37",
     "jquery": "2.1.1",
-    "node-jsx": "^0.11.0",
-    "react": "^0.11.1",
-    "xtuple-rest-client": "0.0.x",
-    "react-tools": "^0.11.1"
+    "xtuple-rest-client": "^0.0.9",
+    "cssstyle": "0.2.18",
+    "jest": "^0.1.37",
+    "jest-cli": "0.1.18",
+    "jsxhint": "^0.4.14",
+    "react": "^0.11.2",
+    "react-test-utils": "^0.0.1",
+    "react-tools": "^0.11.2"
   },
   "devDependencies": {
-    "jest-cli": "^0.1.18",
     "grunt-cli": "^0.1.13"
+  },
+  "jest": {
+    "unmockedModulePathPatterns": [
+      "./node_modules/react"
+    ]
   }
 }
