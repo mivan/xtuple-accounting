@@ -2,8 +2,11 @@
   'use strict';
 
   var React = require('react'),
+    Backbone = require('backbone'),
     Table = require('xtuple-react-components').Table,
     TrialBalanceCollection = require('../../models/TrialBalanceCollection');
+
+  Backbone.$ = window.$;
 
   var TrialBalanceTable = React.createClass({
 

@@ -4,3 +4,4 @@ app.built.js
 bower_components
 debug.js
 npm-debug.log
+.DS_Store

@@ -41,7 +41,7 @@
     "react-test-utils": "^0.0.1",
     "react-tools": "^0.11.2",
     "node-jsx": "^0.11.0",
-    "xtuple-react-components": "^0.0.1"
+    "xtuple-react-components": "^0.0.7"
   },
   "devDependencies": {
     "grunt-cli": "^0.1.13"

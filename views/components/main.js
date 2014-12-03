@@ -6,7 +6,6 @@
     TrialBalanceTable = require('./TrialBalanceTable');
 
   Backbone.$ = window.$;
-  Backbone.history.start();
 
   React.renderComponent(
     <TrialBalanceTable />,
